@@ -16,6 +16,7 @@ a static column (total_count in this case) from the 2nd page.
 #How to run the test?
 
 You'll need to have a Cassandra server, I tested this on version 2.0.14.
+And also Node & npm installed.
 
 * `npm install`
 
