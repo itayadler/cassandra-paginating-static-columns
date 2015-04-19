@@ -110,6 +110,7 @@ bootstrapTest().then(function() {
   return paginate(TEST_PAGE_QUERY.text, TEST_PAGE_QUERY.values, result.pageState, 5).then(function(result){
     console.log(chalk.blue('Printing last 5 results...'));
     console.log(result.rows);
+    console.log(chalk.blue('Notice that the total_count column is null in the 2nd batch.'));
   });
 }).finally(function() {
   return shutdown().then(function(){
