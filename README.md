@@ -1,8 +1,10 @@
 #What is this?
 
 This is a test project I wrote to demonstrate an issue I've with Cassandra
-NodeJS driver by DataStax. (I'm not sure if this is an issue with the driver
-or Cassandra, I'll be glad to know)
+NodeJS driver by DataStax. 
+
+###Update 
+It appears to be a bug in Cassandra https://issues.apache.org/jira/browse/CASSANDRA-8502 , Should be resolved in the next release (2.0.15)
 
 #The issue
 
